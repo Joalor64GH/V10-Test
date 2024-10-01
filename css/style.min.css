@@ -779,7 +779,7 @@ body.miniPlayer #lock-pause .bt .bck {
 #sp-select .icon .img,
 #sp-select .icon .txt {
 	width: 120px;
-	background-size: 1160px 152px;
+	background-size: 1290px 152px;
 	background-repeat: no-repeat
 }
 
@@ -824,6 +824,10 @@ body.miniPlayer #lock-pause .bt .bck {
 	background-position: -1040px 0
 }
 
+#sp-select .icon#icon10 .img {
+	background-position: -1170px 0
+}
+
 #sp-select .icon#icon1 .txt {
 	background-position: 0 -126px
 }
@@ -858,6 +862,10 @@ body.miniPlayer #lock-pause .bt .bck {
 
 #sp-select .icon#icon9 .txt {
 	background-position: -1040px -126px
+}
+
+#sp-select .icon#icon10 .txt {
+	background-position: -1170px -126px
 }
 
 #sp-select .icon .img.focused {
@@ -976,6 +984,10 @@ body.miniPlayer #lock-pause .bt .bck {
 
 #sp-select .icon#icon9 .bul {
 	background-color: #005cfa
+}
+
+#sp-select .icon#icon10 .bul {
+	background-color: #5f7e7b
 }
 
 #fade-home {
@@ -3963,7 +3975,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 	height: inherit;
 	background-image: url(../img/bt-bonus.svg);
 	background-repeat: no-repeat;
-	background-size: 210px 700px;
+	background-size: 210px 770px;
 	background-position: 0 -700px;
 	opacity: .7;
 	transition: opacity .3s ease-in-out
@@ -4083,6 +4095,16 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 
 .v9 #box-top .bt-bonus.unlock#bt-bonus-3 .icon .icn-bck {
 	background-position: -140px -630px
+}
+
+.v10 #box-top .bt-bonus.unlock#bt-bonus-1 .icon .icn-bck {
+	background-position: 0px -700px
+}
+.v10 #box-top .bt-bonus.unlock#bt-bonus-2 .icon .icn-bck {
+	background-position: -70px -700px
+}
+.v10 #box-top .bt-bonus.unlock#bt-bonus-3 .icon .icn-bck {
+	background-position: -140px -700px
 }
 
 #box-top .bt-bonus.unlock .quarter .svg.q0 {
